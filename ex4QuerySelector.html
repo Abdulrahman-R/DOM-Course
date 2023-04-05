@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <!--تدريب طريقة الوصول للعناصر عن طريق ال QuerySelector -->
+      
+      <title>DOM</title>
+      
+    </head>
+    <body>
+       
+        <div >
+            <h1>Programming Languages</h1>
+            <p>These are some programming languages</p>
+            <ul class="languages">
+                <li >JavaScript</li>
+                <p>we can create interactive websites using JavaScript</p>
+                <li >Kotlin</li>
+                <p>we can develp Android apps using Kotlin</p>
+                <li>Swift</li>
+                <p>we can develp iOS apps using Swift</p>
+            </ul>
+
+        </div>
+        <script>
+            let text = document.querySelector('.languages p')
+            let text1 = document.querySelectorAll('.languages p')
+            console.log(text)
+            console.log(text1)
+        </script>
+    </body>
+</htm>

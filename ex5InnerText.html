@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <!--هذا التدريب على كيفية تغير محتوى العناصر باستخدام الدالة inner text-->
+      
+      <title>DOM</title>
+      
+    </head>
+    <body>
+       
+        <div id="first-div">
+            <h1>Programming Languages</h1>
+            <ul>
+                <li id="first-li">JavaScript</li>
+                <li id="second-li">Kotlin</li>
+                <li id="last-li">Swift</li>
+            </ul>
+
+        </div>
+        <script>
+            let android = document.querySelector("#second-li")
+            android.innerText = "Java"
+        </script>
+    </body>
+</htm>

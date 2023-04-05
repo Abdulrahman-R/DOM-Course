@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <!--تدريب طريقة إنشاء العناصر عن طريق ال DOM -->
+      
+      <title>DOM</title>
+      
+    </head>
+    <body>
+       
+        <div >
+            <h1>Programming Languages</h1>
+            <ul class="list">
+                <li >JavaScript</li>
+                <li >Kotlin</li>
+                <li>Swift</li>
+            </ul>
+
+        </div>
+        <script>
+            let languageList = document.querySelector(".list")
+            let ruby =  document.createElement("li")
+            ruby.innerText ="Ruby"
+            languageList.append(ruby)
+            console.log(languageList)
+        </script>
+    </body>
+</htm>
